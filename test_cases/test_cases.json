@@ -1,0 +1,67 @@
+{
+  "TestCase_id":"1",
+  "Title":"Verify to the possibility of downloading the mobile game from the Play Store",
+  "Steps":
+  {
+    "1":"Open the Play Store",
+    "2":"Enter the name of the game into the search field",
+    "3":"Tap on the "Install" button" 
+  },
+  "Expected result":"The game is installed onto the mobile phone"
+}
+
+
+{
+  "TestCase_id":"2",
+  "Title":"Verify that the game progress is saved after closing the game",
+  "Steps":
+  {
+    "1":"Select any available level",
+    "2":"Passage a level",
+    "3":"Close the game",
+    "4":"Reopen the game",
+    "5":"Tap on the "Continue to game" button"  
+  },
+  "Expected result":"The "Excellent! Your ___ day is completed! Tap the ___ level to continue" message is displayed"
+}
+
+{
+  "TestCase_id":"3",
+  "Title":"Verify that the photo is added from the gallery using the 2G mobile Internet",
+  "Preconditions:"
+  {
+   "1":"Authorize in the LinkedIn mobile app",
+   "2":"Turn on the 2G mobile Internet or use Charles (throttle setting)"
+  }
+  "Steps":
+  {
+    "1":"Open the LinkedIn app",
+    "2":"Tap on the profile on the left side of the top",
+    "3":"Tap on the "View Profile" link",
+    "4":"Tap on the photo icon",
+    "5":"Choose the "Select from gallery" option",
+    "6":"Choose a photo from the photo gallery",
+    "7":"Save changes for the personal profile"
+  },
+  "Expected result":"The photo successfully uploads and is displayed into the personal profile"
+}
+
+{
+  "TestCase_id":"4",
+  "Title":"Verify that the error message is displayed on the "Create the request" page after entering the invalid data in the "Phone number" field",
+  "Preconditions:"
+  {
+   "1":"Authorize on the Citrus (https://www.citrus.ua) website"
+  }
+  "Steps":
+  {
+    "1":"Open the "My request" page",
+    "2":"Tap/Click on the "Create the request" button",
+    "3":"Fill in all required fields with the valid information except for the "Phone number" field",
+    "4":"Enter the invalid data (380!!@@57891) into the "Phone number" field",
+    "5":"Click on the "Send" button",
+  },
+  "Expected result":"The "Phone number" field is highlighted in red color and "Incorrect phone number" error message appears. The request isn't sent"
+}
+
+
