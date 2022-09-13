@@ -55,7 +55,7 @@
   }
   "Steps":
   {
-    "1":"Open the 'My request" page'",
+    "1":"Open the 'My request' page",
     "2":"Tap/Click on the 'Create the request' button",
     "3":"Fill in all required fields with the valid information except for the 'Phone number' field",
     "4":"Enter the invalid data (380!!@@57891) into the 'Phone number' field",
