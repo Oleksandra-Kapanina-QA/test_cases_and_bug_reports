@@ -1,7 +1,7 @@
 {
   "Bug_id":"1",
   "Priority":"Low",
-  "Summary":"Chocolate icon and information about coin are ubsent on the 'Camp Choc' Pop-Up",
+  "Summary":"Chocolate icon and information about coin are absent on the 'Camp Choc' Pop-Up",
   "Preconditions:"
   {
    "1":"User has enough coin to upgrade Camp Choc building",
@@ -10,12 +10,49 @@
   "Steps to reproduce":
   {
     "1":"Open the game",
-    "2":"Tap on the 'Camp Choc' builing",
+    "2":"Tap on the 'Camp Choc' building",
     "3":"Tap on the 'Upgrade' button",
-    "4":"Wait till building is upgraded",
+    "4":"Wait till the building is upgraded",
     "5":"Pay attention to the 'Camp Choc' Pop-Up",
   },
   "Actual result":"Empty icon (without chocolate picture) and empty button are displayed on the 'Camp Choc' Pop-Up after upgrading the building to the maximum level"
-  "Expected result":"All information and pictures should present on the 'Camp Choc' Pop-Up after upgrading the building to the maximum level",
-  
+  "Expected result":"All information and pictures should present on the 'Camp Choc' Pop-Up after upgrading the building to the maximum level",  
+}
+
+{
+  "Bug_id":"2",
+  "Priority":"High",
+  "Summary":"The price of items aren't displayed in the cart after adding it to the cart",
+  "Preconditions:"
+  {
+   "1":"Open the ... website",
+  }
+  "Steps to reproduce":
+  {
+    "1":"Choose the 'Microwave' (example, also you can choose any sector) sector on the left side of the site on the main screen",
+    "2":"Click on any microwave",
+    "3":"Click on the cart icon",
+    "4":"Click on the cart icon on the top panel of the site",
+    "5":"Pay attention to the price information on the 'Cart' screen",
+  },
+  "Actual result":"The price of the microwave isn't displayed on the 'Cart' screen after adding the microwave to the cart"
+  "Expected result":"The price is shown on the 'Cart' screen and corresponds to the price from the items page",  
+}
+
+{
+  "Bug_id":"3",
+  "Priority":"High",
+  "Summary":"Page with error message opens after clicking on the logo on the main screen",
+  "Preconditions:"
+  {
+   "1":"Open the ... website",
+  }
+  "Steps to reproduce":
+  {
+    "1":"Click on the company logo",  
+    "2":"Pay attention to the opened page",
+  },
+  "Actual result":"'The page with the 'Error address' message appears on the new tab after clicking on the logo of the company on the main screen"
+  "Expected result":"Main page is restarted after clicking on the company logo",  
+
 }
