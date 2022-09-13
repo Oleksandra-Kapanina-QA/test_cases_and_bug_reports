@@ -1,0 +1,21 @@
+{
+  "Bug_id":"1",
+  "Priority":"Low",
+  "Summary":"Chocolate icon and information about coin are ubsent on the 'Camp Choc' Pop-Up",
+  "Preconditions:"
+  {
+   "1":"User has enough coin to upgrade Camp Choc building",
+   "2":"Camp Choc building has premaximum building level"
+  }
+  "Steps to reproduce":
+  {
+    "1":"Open the game",
+    "2":"Tap on the 'Camp Choc' builing",
+    "3":"Tap on the 'Upgrade' button",
+    "4":"Wait till building is upgraded",
+    "5":"Pay attention to the 'Camp Choc' Pop-Up",
+  },
+  "Actual result":"Empty icon (without chocolate picture) and empty button are displayed on the 'Camp Choc' Pop-Up after upgrading the building to the maximum level"
+  "Expected result":"All information and pictures should present on the 'Camp Choc' Pop-Up after upgrading the building to the maximum level",
+  
+}
